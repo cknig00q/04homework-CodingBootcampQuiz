@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Coding Bootcamp Quiz</title>
+  </head>
+  <body>
+    <div id="timer">Timer</div>
+    <div id="start-page">
+      <h1 class="quiz_title">Code Quiz Challenge</h1>
+      <ul>
+          <li class="quiz_info">This is a timed quiz, allowing 60 seconds to answer all questions.</li>
+          <li class="quiz_info">Each correct answer will gain a point and advance to the next question.</li>
+          <li class="quiz_info">Each incorrect answer will subtract time from the clock and advance to the next question.</li>
+          <li class="quiz_info">It's game if you run out of time, or answer all questions.</li>
+      </ul>
+      
+      <!-- Start Button for Quiz -->
+      <div id="button" class="start_button"><button>Start Quiz</button></div>
+    </div>
+
+      <!-- Quiz Questions -->
+    <div id="question1" class="hidden">
+      <div class="question">Arrays in JavaScript can be used to store _____?</div>
+      <ol class="answer_list">
+          <li class="q1 wrong">Numbers and Strings</li>
+          <li class="q1 wrong">Other Arrays</li>
+          <li class="q1 wrong">Booleans</li>
+          <li class="q1 right">All of the Above</li>
+      </ol>
+    </div>
+    <div id="question2" class="hidden">
+      <div class="question">Commonly used data types DO NOT include:</div>
+      <ol class="answer_list">
+          <li class="q2 wrong">Strings</li>
+          <li class="q2 wrong">Booleans</li>
+          <li class="q2 right">Alerts</li>
+          <li class="q2 wrong">Numbers</li>
+      </ol>
+    </div>
+    <div id="question3" class="hidden">
+      <div class="question">String values must be enclosed within _____ when being assigned to variables.</div>
+      <ol class="answer_list">
+        <li class="q3 wrong">Commas</li>
+        <li class="q3 wrong">Curly Brackets</li>
+        <li class="q3 right">Quotes</li>
+        <li class="q3 wrong">Parenthases</li>
+      </ol>
+    </div>
+    <div id="game-over" class="hidden">
+      <div>Game Over</div>
+      <div>Your initials</div>
+    </div>
+    <div id="high-score" class="hidden">
+      <div>High Score</div>
+    </div>
+    <script src= "./script.js"></script>
+  </body>
+
+</html>
